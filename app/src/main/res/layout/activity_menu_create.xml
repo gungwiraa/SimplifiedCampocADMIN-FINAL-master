@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/CreateDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CreateFoto"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-70dp"
+        android:hint="Masukkan deskripsi" />
+
+    <EditText
+        android:id="@+id/CreateFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:hint="Masukkan URL foto" />
+
+    <EditText
+        android:id="@+id/CreateLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CreateFoto"
+        android:hint="Masukkan lokasi" />
+
+    <Button
+        android:id="@+id/ButtonCreateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Tambah Data" />
+
+
+</RelativeLayout>
